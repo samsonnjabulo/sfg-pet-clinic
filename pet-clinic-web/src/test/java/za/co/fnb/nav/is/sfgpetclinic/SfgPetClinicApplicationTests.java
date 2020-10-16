@@ -8,6 +8,7 @@ class SfgPetClinicApplicationTests {
 
     @Test
     void contextLoads() {
+        /*assertEquals(2, 3);*/
     }
 
 }

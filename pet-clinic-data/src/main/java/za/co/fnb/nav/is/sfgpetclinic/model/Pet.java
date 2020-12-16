@@ -3,8 +3,10 @@ package za.co.fnb.nav.is.sfgpetclinic.model;
 import java.time.LocalDate;
 
 public class Pet extends BaseEntity{
+
     private LocalDate birthDate;
     private Owner owner;
+    private String name;
     private PetType petType;
 
     public LocalDate getBirthDate() {
@@ -30,4 +32,6 @@ public class Pet extends BaseEntity{
     public void setPetType(PetType petType) {
         this.petType = petType;
     }
+
+    public void setName(String name) {this.name = name; }
 }
